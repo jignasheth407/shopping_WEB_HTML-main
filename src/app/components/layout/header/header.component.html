@@ -1,0 +1,109 @@
+<div class="header-area">
+  <!-- Mainmenu Area Start -->
+  <div class="mainmenu-area header-sticky fixed-top navbar " >
+      <div class="full-container" style="width: 100%;">
+          <div class="row">
+              
+              <div class="col-xl-5 col-lg-5 display-none-md display-none-xs  ">
+                  <div class="main-menu ">
+                      
+                      <nav>
+                          <ul>
+                              <li [routerLinkActive]="['active']" [routerLinkActiveOptions]="{exact:true}"><a routerLink="/home">Home</a>
+                                 
+                              </li>
+                              <li [routerLinkActive]="['active']" [routerLinkActiveOptions]="{exact:true}"><a routerLink="/product">Product</a>
+                                 
+                              </li>
+                              <li [routerLinkActive]="['active']" [routerLinkActiveOptions]="{exact:true}"><a routerLink="/shop">Shop</a>
+                                 
+                              </li>
+                              <li [routerLinkActive]="['active']" [routerLinkActiveOptions]="{exact:true}"><a routerLink="/wishlist">Wishlist</a>
+                                 
+                              </li>
+                              <li [routerLinkActive]="['active']" [routerLinkActiveOptions]="{exact:true}"><a routerLink="/bloglist">Blog</a>
+                                 
+                              </li>
+                              <li [routerLinkActive]="['active']" [routerLinkActiveOptions]="{exact:true}"><a routerLink="/contact">Contact</a>
+                                 
+                              </li>
+                          </ul>
+                      </nav>
+                  </div>
+              </div>
+              <div class="col-xl-2 col-lg-2 col-5">
+                  <div class="logo text-center">
+                      <a><img src="../../../../assets/img/logo/logo-white.png" alt="NEGO"></a>
+                  </div>
+              </div>
+              <div class="col-xl-5 col-lg-5 col-7">
+                  <div class="header-content d-flex justify-content-end">
+                      <div class="search-wrapper">
+                          <a ><i class="icon ion-ios-search-strong"></i></a>
+                          <form  class="search-form">
+                              <input type="text" placeholder="Enter your search...">
+                              <button type="button"><i class="icon ion-ios-search-strong"></i></button>
+                          </form>
+                      </div>
+                      <div class="cart-wrapper">
+                          <a >
+                              <i class="icon ion-bag"></i>
+                              <!-- <span>2</span> -->
+                          </a>
+                          <div class="cart-item-wrapper">
+                              <div class="single-cart-item d-flex">
+                                  <div class="cart-img">
+                                      <a routerLink="/cart"><img src="assets/img/cart/1.jpg" alt=""></a>
+                                  </div>
+                                  <div class="cart-text-btn">
+                                      <div class="cart-text">
+                                          <h5><a routerLink="/cart">Fashion Wear</a></h5>
+                                          <span class="cart-qty">Qty: 1</span>
+                                          <span class="cart-price">$115.00</span>
+                                      </div>
+                                      <button type="button"><i class="fa fa-close"></i></button>
+                                  </div>
+                              </div>
+                              <div class="single-cart-item d-flex">
+                                  <div class="cart-img">
+                                      <a routerLink="/cart"><img src="assets/img/cart/2.jpg" alt=""></a>
+                                  </div>
+                                  <div class="cart-text-btn">
+                                      <div class="cart-text">
+                                          <h5><a routerLink="/cart">Kaoreet lobortis</a></h5>
+                                          <span class="cart-qty">Qty: 1</span>
+                                          <span class="cart-price">$95.00</span>
+                                      </div>
+                                      <button type="button"><i class="fa fa-close"></i></button>
+                                  </div>
+                              </div>
+                              <div class="cart-price-total d-flex justify-content-between">
+                                  <span>Subtotal:</span>
+                                  <span> $210.00</span>
+                              </div>
+                              <div class="cart-links">
+                                  <a routerLink="/cart">View cart</a>
+                                  <a routerLink="/checkout">Checkout</a>
+                              </div>
+                          </div>
+                      </div>
+                      <div class="settings-wrapper">
+                          <a href="#"><i class="ion-grid"></i></a>
+                          <div class="settings-content">
+                              <h4>My Account</h4>
+                              <ul>
+                                  <li><a routerLink="/account">My Account</a></li>
+                                  <li><a routerLink="/wishlist">Wishlist</a></li>
+                                  <li><a routerLink="/comparision">Comparision</a></li>
+                              </ul>
+                          </div>
+                      </div>
+                  </div>
+              </div>
+          </div>
+      </div>
+  </div>
+  <!-- Mainmenu Area End -->
+  
+ 
+</div>

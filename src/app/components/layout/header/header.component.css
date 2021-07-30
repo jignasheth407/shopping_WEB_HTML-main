@@ -1,0 +1,17 @@
+.not-transparent
+{
+background-color: skyblue;
+color:white;
+}
+.scrolled{
+    background-color:rgba(105, 128, 145, 0.95);
+    transition: 0.3s;
+    color:white;
+  }
+  /* .header-content
+  {
+      margin-left: 380px;
+  } */
+  .a{
+      text-decoration: none;
+  }

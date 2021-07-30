@@ -1,0 +1,53 @@
+<app-header></app-header>
+<!-- Wishlist Area Start -->
+
+<div class="breadcrumb-area bg-3 text-center">
+    <div class="container">
+        <h1>Wishlist</h1>
+        <nav aria-label="breadcrumb">
+            <ul class="breadcrumb"style="background-color: transparent!important;">
+                <li class="breadcrumb-item"><a routerLink="/home">Home</a></li>
+                <li class="breadcrumb-item" aria-current="page">Wishlist</li>
+            </ul>
+        </nav>
+    </div>
+</div>
+<div class="wishlist-area table-area pt-110 pb-110">
+  <div class="container">
+      <div class="table-responsive">
+          <table class="table product-table text-center">
+              <thead>
+                  <tr>
+                      <th class="table-remove">remove</th>
+                      <th class="table-image">image</th>
+                      <th class="table-p-name">Product Name</th>
+                      <th class="table-p-price">Unit Price</th>
+                      <th class="table-stock">Stock Status</th>
+                      <th class="table-add-cart">total</th>
+                  </tr>
+              </thead>
+              <tbody>
+                  <tr>
+                      <td class="table-remove"><button><i class="fa fa-close"></i></button></td>
+                      <td class="table-image"><a routerLink="/productdetails"><img src="assets/img/cart/2.jpg" alt=""></a></td>
+                      <td class="table-p-name"><a routerLink="/productdetails">Habitasse dictumst</a></td>
+                      <td class="table-p-price"><p><span class="line-through">$85.00</span> $79.00</p></td>
+                      <td class="table-stock"><span>In Stock</span></td>
+                      <td class="table-add-cart"><a routerLink="/cart">Add to cart</a></td>
+                  </tr>
+                  <tr>
+                      <td class="table-remove"><button><i class="fa fa-close"></i></button></td>
+                      <td class="table-image"><a routerLink="/productdetails"><img src="assets/img/cart/1.jpg" alt=""></a></td>
+                      <td class="table-p-name"><a routerLink="/productdetails">Kaoreet lobortis</a></td>
+                      <td class="table-p-price"><p>$145.00</p></td>
+                      <td class="table-stock"><span>In Stock</span></td>
+                      <td class="table-add-cart"><a routerLink="/cart">Add to cart</a></td>
+                  </tr>
+              </tbody>
+          </table>
+      </div>
+  </div>
+</div>
+<!-- Wishlist Area End -->
+<app-footer></app-footer>
+

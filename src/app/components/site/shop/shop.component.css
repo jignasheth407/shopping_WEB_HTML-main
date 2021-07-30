@@ -1,0 +1,32 @@
+.item {
+    background: #abc;
+    padding: 5px;
+    text-align: center;
+    font-size: 2rem;
+    margin: 5px;
+  }
+  
+  .item img {
+    height: 400px;
+  }
+  
+  @media screen and (max-width: 480px) {
+    .item img {
+      height: 200px;
+    }
+  }
+  @media screen and (max-width: 600px) {
+    .item img {
+      height: 200px;
+    }
+  }
+  @media screen and (max-width: 800px) {
+    .item img {
+      height: 200px;
+    }
+  }
+  @media screen and (max-width: 1000px) {
+    .item img {
+      height: 200px;
+    }
+  }
